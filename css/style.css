@@ -1,0 +1,103 @@
+
+
+/* =========================*/
+/* ======BESIC SET UP======= */
+/* =========================*/
+body{
+background-color: #333;
+color: white;
+}
+
+
+
+
+
+
+
+
+
+/* =========================*/
+/* ======NAVIGATION SECTION======= */
+/* =========================*/
+.navbar{
+  background-color: #292b2c;
+  border-bottom: 3px solid #0D71A4;
+  opacity: 0.6;
+}
+
+
+
+
+
+
+
+
+
+/* =========================*/
+/* ======HOME SECTION======= */
+/* =========================*/
+
+.home-section
+{
+
+  background-image: linear-gradient(rgb(44, 46, 46,0.9),rgb(44, 46, 46,0.6)) ,url('../img/1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+
+  background-attachment: fixed;
+}
+
+
+.fa
+{
+  background-color: white;
+  color:#007BFF;
+  padding: 5px;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+
+
+.home-inner
+{
+  padding-top: 150px;
+  padding-bottom: 50px
+}
+
+
+
+
+
+
+/* =========================*/
+/* ======EXPLORE  MAIN SECTION======= */
+/* =========================*/
+
+
+.explore-main-section .fa
+{
+ background-color: black;
+ color: white;
+}
+
+
+
+
+
+
+
+
+/* =========================*/
+/* ======RESPONSIVE DESIGN======= */
+/* =========================*/
+
+@media (max-width:767px)
+{
+  .home-section h2
+  {
+    font-size: 40px;
+  }
+}
